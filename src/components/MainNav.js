@@ -5,22 +5,25 @@ import React from "react";
 
 const MainNav = () => {
   return (
-    <div className="wrapper">
+    <div>
       <div className="header">Openning hours Monday to Saturday</div>
-      <ul>
+      <ul className="wrapper">
         <nav>
           <ul className="left">
             <li>
               <a href="/">Menu</a>
             </li>
             <li>
-              <a href="/">Shop Online</a>
+              <a href="/shopOnline">Shop Online</a>
             </li>
             <li>
-              <a href="/">Contact</a>
+              <a href="/contact">Contact</a>
             </li>
             <li>
-              <a href="/">About Us</a>
+              <a href="/aboutUs">About Us</a>
+            </li>
+            <li>
+              <a href="/signup">Sign Up</a>
             </li>
           </ul>
         </nav>
